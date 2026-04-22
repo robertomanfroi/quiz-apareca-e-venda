@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz: Apareça e Venda | Suellen Warmling</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
 <style>
   :root {
     --orange: #FC4C04;
@@ -29,7 +32,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
-    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Instrument Sans', 'Inter', 'Segoe UI', Arial, sans-serif;
     background: var(--black);
     background-image:
       radial-gradient(ellipse 80% 60% at 50% -10%, rgba(252,76,4,0.08) 0%, transparent 70%),
@@ -64,7 +67,7 @@
     50% { opacity:.8; transform:scale(1.4); box-shadow:0 0 16px rgba(252,76,4,0.9); }
   }
   .header-label {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 10px; font-weight: 700; letter-spacing: 2.5px;
     color: rgba(252,233,217,0.7); text-transform: uppercase;
   }
@@ -128,7 +131,7 @@
     text-transform: uppercase; letter-spacing: 1.5px;
   }
   .intro-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: clamp(24px, 5vw, 34px);
     font-weight: 900; line-height: 1.18;
     color: var(--black); margin-bottom: 18px;
@@ -160,7 +163,7 @@
   .btn {
     display: inline-flex; align-items: center; justify-content: center;
     gap: 8px; padding: 17px 32px; border-radius: 99px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 15px; font-weight: 800;
     cursor: pointer; border: none; width: 100%;
     transition: all .3s cubic-bezier(.22,.68,0,1.2); text-decoration: none;
@@ -202,7 +205,7 @@
     width: 20px; height: 2px; background: var(--orange); border-radius: 99px;
   }
   .q-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: clamp(17px, 4vw, 21px);
     font-weight: 800; line-height: 1.38;
     color: var(--black); margin-bottom: 28px;
@@ -245,12 +248,12 @@
 
   /* ── PROFILE ── */
   .profile-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 14px; font-weight: 700; color: var(--text-muted);
     text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;
   }
   .profile-q {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 18px; font-weight: 800;
     color: var(--black); margin-bottom: 20px;
   }
@@ -282,7 +285,7 @@
   @keyframes loadFill { to { width: 100%; } }
   .loading-emoji { font-size: 48px; margin-bottom: 16px; }
   .loading-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 18px; font-weight: 800; color: var(--black);
   }
   .loading-sub { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
@@ -299,7 +302,7 @@
     box-shadow: 0 2px 12px rgba(252,76,4,0.25);
   }
   .result-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: clamp(22px, 5.5vw, 32px);
     font-weight: 900; line-height: 1.22;
     color: var(--black); margin-bottom: 22px;
@@ -322,7 +325,7 @@
 
   /* ── TESTIMONIALS ── */
   .dep-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 12px; font-weight: 700;
     color: var(--text-muted); text-transform: uppercase;
     letter-spacing: 2px; margin-bottom: 18px;
@@ -361,7 +364,7 @@
     margin-bottom: 18px;
   }
   .cta-event {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 13px; font-weight: 600;
     color: var(--cream); margin-bottom: 20px; line-height: 1.6;
   }
@@ -378,7 +381,7 @@
     opacity: .85;
   }
   .price-new {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 52px; font-weight: 900; color: var(--orange);
     line-height: 1;
     text-shadow: 0 0 30px rgba(252,76,4,.4);
@@ -398,7 +401,7 @@
     border-radius: 10px; padding: 10px 16px; min-width: 60px;
   }
   .cd-num {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 28px; font-weight: 900; color: var(--orange);
     line-height: 1;
   }
@@ -424,7 +427,7 @@
     font-size: 22px; flex-shrink: 0;
   }
   .authority-name {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 13px; font-weight: 800;
     color: var(--black); margin-bottom: 4px;
   }
@@ -485,7 +488,7 @@
 
   /* ── LOADING ── */
   .loading-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', Arial Black, sans-serif;
     font-size: 18px; font-weight: 800; color: var(--black);
     letter-spacing: -0.3px;
   }
